@@ -87,21 +87,19 @@ a {
     text-align: center;
     font-size: 75px;
     font-weight: 700;
-    color: #174A75;
+    color: white;
     margin-left: 60px;
     margin-right: auto;
-    text-shadow: 1px 1px 1px black;
 
 }
 #tagline {
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 30px;
-    color: #174A75;
+    color: white;
     font-weight: 500;
     margin-left: 60px;
     margin-right: auto;
-    text-shadow: 1px 1px 1px black;
     width: 50%;
 
 }
@@ -126,7 +124,7 @@ a {
     background-attachment: fixed;
     height: 700px;
     position: relative;
-    color: #174A75;
+    color: white;
     font-family:  Raleway , sans-serif;
     width: 100%;
     background-size: cover;
