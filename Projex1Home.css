@@ -21,24 +21,30 @@
 
 .contact-button {
   display: inline;
+  margin-top: 6px !important;
+  color: white !important;
 }
 
 .custom-btn {
   padding-top: 8px !important;
   padding-bottom: 8px !important;
-  margin-top: 6px !important;
+  color: white;
   background-color: orange !important;
 }
 
 .showcase {
   height: 900px;
-  background: url(PhotoFilterBackground.png) no-repeat center top;
+  background: url(PhotoFilterBackgroundStraight.png) no-repeat center top;
   background-size: cover;
   color: white;
   font-family: Raleway , sans-serif;
+  background-attachment: fixed;
 }
 
 .showcase-text {
   margin-top: 300px;
   font-size: 50px;
 }
+ .demo-button {
+   margin-top: 40px;
+ }
