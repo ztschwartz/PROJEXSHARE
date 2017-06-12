@@ -32,5 +32,13 @@
 
 .showcase {
   height: 900px;
-  background: url(CoverBackgroundBlur.png) no-repeat center top;
+  background: url(PhotoFilterBackground.png) no-repeat center top;
+  background-size: cover;
+  color: white;
+  font-family: Raleway , sans-serif;
+}
+
+.showcase-text {
+  margin-top: 300px;
+  font-size: 50px;
 }
