@@ -30,10 +30,7 @@
   background-color: orange !important;
 }
 
-.jumbotron h1 {
-  font-family: Raleway;
-}
-
-.jumbotron {
-  background-image: url(/Users/zackschwartz/Documents/Development/Web Development/PROJEXSHARE/PROJEXSHAREBANNERBACKGROUND.psd)
+.showcase {
+  height: 900px;
+  background-image: url(/Web Development/PROJEXSHARE/PhotoFilterBackground.png);
 }
