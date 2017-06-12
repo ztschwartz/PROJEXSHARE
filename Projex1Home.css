@@ -32,5 +32,5 @@
 
 .showcase {
   height: 900px;
-  background-image: url(/Web Development/PROJEXSHARE/PhotoFilterBackground.png);
+  background: url(CoverBackgroundBlur.png) no-repeat center top;
 }
