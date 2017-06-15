@@ -22,18 +22,20 @@
 .contact-button {
   display: inline;
   margin-top: 6px !important;
-  color: white !important;
+  color: #F7CE3E !important;
+  font-size: 16px;
 }
 
 .custom-btn {
   padding-top: 8px !important;
   padding-bottom: 8px !important;
   color: white;
-  background-color: orange !important;
+  background-color: transparent !important;
+  border:  1px solid #F7CE3E;
 }
 
 .showcase {
-  height: 900px;
+  height: 750px;
   background: url(PhotoFilterBackgroundStraight.png) no-repeat center top;
   background-size: cover;
   color: white;
@@ -47,4 +49,28 @@
 }
  .demo-button {
    margin-top: 40px;
+   margin-bottom: 80px;
+ }
+ .glyphicon-menu-down {
+   font-size: 50px;
+   color: white;
+   text-align: center;
+   display: block;
+ }
+ .divider1 {
+   background-color: whitesmoke;
+   padding-top: 10px;
+   padding-bottom: 18px;
+   color: #174A75;
+ }
+ .glyphicon-folder-open {
+   font-size: 400px;
+   color: #F7CE3E;
+   position: absolute;
+   margin-top: 850px;
+ }
+ .descr1-text {
+   padding-top: 40px;
+   padding-right: 40px;
+
  }

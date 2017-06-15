@@ -13,6 +13,7 @@
     </head>
     <body>
       <header>
+        <!--NAVBAR-->
         <nav class="navbar navbar-default navbar-fixed-top">
           <div class="container">
             <div class="navbar-header">
@@ -34,9 +35,10 @@
           </div>
         </nav>
         </header>
+        <!--SHOWCASE-->
         <section>
           <div class="showcase">
-            <div class="container-fluid">
+            <div class="container">
               <div class="row">
                 <div class="col-md-12">
                   <h1 class="showcase-text text-center">PROJEXSHARE</h1>
@@ -53,17 +55,79 @@
                 <div class="col-md-5 col-xs-4">
                 </div>
               </div>
-
+              <div class="row scroll-logo">
+                <div class="col-md-4 col-xs-4">
+                </div>
+                <div class="col-md-4 col-xs-4">
+                  <span class="glyphicon glyphicon-menu-down"></span>
+                </div>
+                <div class="col-md-4 col-xs-4">
+                </div>
+              </div>
             </div>
           </div>
       </section>
+      <!--CONTENT-->
       <section>
-        <div
+        <div class="divider1">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="text-center">What is PROJEXSHARE?</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="descr1">
+          <div class="folder-background">
+            <span class="glyphicon glyphicon-folder-open"></span>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-sm-6">
+                <h4 class="descr1-text">
+                  Constias malis ne consequat coniunctione qui duis nam iis culpa vidisse, irure
+                  te o fugiat probant te est tamen an summis. Ut nam cillum possumus ea ita tempor
+                  fugiat o vidisse ne eiusmod dolor se aliquip fidelissimae do irure eu voluptate
+                  eu velit, minim pariatur o consectetur, aut aliquip distinguantur, nisi commodo
+                  quo voluptate ex litteris ipsum quo probant despicationes. Ita culpa an quorum
+                  ubi ubi ipsum incurreret.
+                </h4>
+              </div>
+              <div class="col-md-6 col-sm-6">
+
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+      <script>
+        window.sr = ScrollReveal();
+        sr.reveal('.navbar' , {
+          duration: 2000,
+          origin: 'bottom'
+        });
+        sr.reveal('.showcase-text' , {
+          duration: 2000,
+          origin: 'top'
+        });
+        sr.reveal('.showcase-tagline' , {
+          duration: 2000,
+          origin:'bottom'
+        });
+        sr.reveal('.demo-button' , {
+          duration: 2000,
+          delay: 1000,
+          origin: 'bottom'
+        });
+      </script>
     </body>
+
 
 
 
