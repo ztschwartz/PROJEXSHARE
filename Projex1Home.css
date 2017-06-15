@@ -62,18 +62,34 @@
    padding-top: 10px;
    padding-bottom: 18px;
    color: #174A75;
+   font-family: Raleway;
  }
  .glyphicon-folder-open {
    font-size: 400px;
    color: #F7CE3E;
+   opacity: 0.5;
    position: absolute;
    margin-top: 850px;
+   display: none;
  }
+.descr1 {
+  min-height: 300px;
+  padding-top: 100px;
+  padding-bottom:100px;
+}
  .descr1-text {
-   padding-top: 40px;
+   font-family: Raleway;
+
    padding-right: 40px;
 
  }
  .computer-image1 {
-   padding: 70px;
+   padding: 20px;
+   margin: auto;
+   display: block;
+   max-width: 100%;
+   max-height: 500px;
+ }
+ .descr2 {
+   background-color: whitesmoke;
  }
