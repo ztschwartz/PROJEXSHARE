@@ -10,14 +10,20 @@
  }
 
 .navbar-default {
-  background-color: rgba(250 , 250 , 250 , 0.9);
+  background-color: white;
   border: 0;
   font-family: Raleway;
+  box-shadow: none !important;
 }
 
 .brand-image {
   display: inline;
+  background-color: transparent !important;
 }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+  background-color: transparent;
+}
+
 
 .contact-button {
   display: inline;
@@ -79,17 +85,77 @@
 }
  .descr1-text {
    font-family: Raleway;
-
+   vertical-align: middle;
    padding-right: 40px;
+   font-size: 1.75rem;
 
  }
  .computer-image1 {
-   padding: 20px;
+   padding-left: 20px;
    margin: auto;
-   display: block;
+   display: inline-block;
    max-width: 100%;
    max-height: 500px;
+   vertical-align: middle;
  }
  .descr2 {
    background-color: whitesmoke;
  }
+
+.descr2-1 {
+  height: 300px;
+  vertical-align: middle;
+}
+
+.descr2-2 {
+  height: 300px;
+}
+
+.descr2-3 {
+  min-height: 300px;
+
+}
+
+.descr2-1-logo {
+  display:block;
+  text-align: center;
+  margin-top:100px;
+}
+
+.descr2-head1 {
+}
+
+.descr2-head2 {
+  margin-top: 100px;
+}
+
+.descr2-head3 {
+  margin-top: 100px;
+
+}
+
+.descr2-body1 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.descr2-body2 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.descr2-body3 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+@media only screen and (min-device-width: 992px) {
+  .computer-image1 {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+  }
+}
