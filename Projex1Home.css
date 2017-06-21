@@ -41,8 +41,8 @@
 }
 
 .showcase {
-  height: 750px;
-  background: url(PhotoFilterBackgroundStraight.png) no-repeat center top;
+  min-height: 750px;
+  background: url(img/PhotoFilterBackground2.svg) no-repeat center top;
   background-size: cover;
   color: white;
   font-family: Raleway , sans-serif;
@@ -103,12 +103,12 @@
  }
 
 .descr2-1 {
-  height: 300px;
+  min-height: 300px;
   vertical-align: middle;
 }
 
 .descr2-2 {
-  height: 300px;
+  min-height: 300px;
 }
 
 .descr2-3 {
@@ -118,38 +118,70 @@
 
 .descr2-1-logo {
   display:block;
-  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
   margin-top:100px;
 }
 
 .descr2-head1 {
+  font-size: 30px;
 }
 
+.descr2-2-logo {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:100px;
+}
 .descr2-head2 {
-  margin-top: 100px;
+  font-size: 30px;
 }
 
+.descr2-3-logo {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:100px;
+}
 .descr2-head3 {
-  margin-top: 100px;
+  font-size: 30px;
 
 }
 
 .descr2-body1 {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 
 }
 
 .descr2-body2 {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 
 }
 
 .descr2-body3 {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 
+}
+.descr3 {
+  min-height: 300px;
+  background-image: url(img/ArchitectureRight.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.descr3-head {
+
+}
+.descr3-body {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+
+.footer {
+  height: 2000px;
 }
 
 @media only screen and (min-device-width: 992px) {

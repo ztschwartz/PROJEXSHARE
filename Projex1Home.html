@@ -23,7 +23,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="pull-left" href="Projex1Home.html"><img class= "custom-nav-logo" src="PROJEXSHARE-LOGO1-02.svg" alt="ProjexShare" style="width:50px;height:50px;"</a>
+              <a class="pull-left" href="Projex1Home.html"><img class= "custom-nav-logo" src="img/PROJEXSHARE-LOGO1-02.svg" alt="ProjexShare" style="width:50px;height:50px;"</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse">
               <ul class="nav navbar-nav navbar-right">
@@ -86,7 +86,7 @@
           </div>
           <div class="container">
             <div class="row">
-              <div class="col-md-6 col-sm-6">
+              <div class="col-md-6">
                 <h1 class="descr1-head">Keep your files, leave the headaches</h1>
                 <p class="descr1-text">
                   Constias malis ne consequat coniunctione qui duis nam iis culpa vidisse, irure
@@ -97,8 +97,8 @@
                   ubi ubi ipsum incurreret.
                 </p>
               </div>
-              <div class="col-md-6 col-sm-6">
-                <img class="computer-image1" src="displayImage.png" />
+              <div class="col-md-6 ">
+                <img class="computer-image1" src="img/displayImage.png" />
               </div>
             </div>
           </div>
@@ -110,8 +110,9 @@
             <div class="row">
               <div class= "col-md-4">
                 <div class="descr2-1">
-                  <h1 class="descr2-1-logo glyphicon glyphicon-option-horizontal"></h1>
+                  <img class="descr2-1-logo" src="img/edit.svg" width="40px"/>
                   <h1 class= "descr2-head1 text-center">Simple</h1>
+                  <hr />
                   <p class="descr2-body1">
                     Eiusmod magna elit e veniam do excepteur ex export nescius ita quo anim illum
                     export vidisse, duis ut do dolor iudicem se nam iis nisi quamquam est incididunt
@@ -121,8 +122,9 @@
               </div>
               <div class= "col-md-4 ">
                 <div class="descr2-2">
-                  <h1 class="descr2-2-logo "></h1>
+                  <img class="descr2-2-logo" src="img/success.svg" width="40px" />
                   <h1 class="descr2-head2 text-center">Complete</h1>
+                  <hr />
                   <p class="descr2-body2">
                     Tempor comprehenderit laboris amet offendit iis ubi noster commodo. Est nisi
                     summis id excepteur aut malis deserunt mentitum non voluptate anim senserit et
@@ -134,7 +136,9 @@
               </div>
               <div class= "col-md-4">
                 <div class="descr2-3">
+                  <img class="descr2-3-logo" src="img/locked.svg" width="40px" />
                   <h1 class= "descr2-head3 text-center">Secure</h1>
+                  <hr />
                   <p class="descr2-body3">
                     Ea quae nam magna hic quo anim iudicem domesticarum nam ad ne relinqueret, enim
                     aliquip expetendis. Eu cillum expetendis deserunt, proident noster singulis.
@@ -147,6 +151,34 @@
           </div>
         </div>
       </section>
+      <section>
+        <div class="descr3">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+
+              </div>
+              <div class="col-md-6">
+                <h1 class="descr3-head text-right">Header</h1>
+                <p class="descr3-body text-right rounded">
+                  Expetendis aut sunt. Sed a fidelissimae an a te minim senserit ne aliquip sunt
+                  in excepteur praesentibus, ullamco instituendarum ne laborum eu o id
+                  fidelissimae, probant instituendarum nam deserunt, quem constias ne
+                  comprehenderit quo quo dolor excepteur arbitror. Aut legam deserunt cernantur.
+                  Non ea praetermissum.Possumus multos litteris mandaremus, te minim commodo
+                  voluptatibus, multos ab incididunt o veniam o ita ita ipsum possumus non est
+                  illum praetermissum, te commodo consectetur nam te export efflorescere, ex
+                  doctrina si proident. Multos occaecat in distinguantur et ne anim quid te
+                  expetendis hic legam de eiusmod te fore in do quamquam in nescius.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+
+      </footer>
 
       <script   src="https://code.jquery.com/jquery-3.2.1.min.js"   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="   crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -183,6 +215,21 @@
           duration: 2000,
           delay: 1000,
           origin: 'right'
+        });
+        sr.reveal('.descr2-1' , {
+          duration: 2000,
+          delay: 1000,
+          origin: 'bottom'
+        });
+        sr.reveal('.descr2-2' , {
+          duration: 2000,
+          delay: 1000,
+          origin: 'bottom'
+        });
+        sr.reveal('.descr2-3' , {
+          duration: 2000,
+          delay: 1000,
+          origin: 'bottom'
         });
       </script>
     </body>
