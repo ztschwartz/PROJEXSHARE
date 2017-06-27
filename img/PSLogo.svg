@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1125 621" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g id="Artboard1" transform="matrix(1,0,0,1,-109,-67)">
+        <rect x="109" y="67" width="1125" height="621" style="fill:none;"/>
+        <g transform="matrix(1,0,0,1,281.37,103.048)">
+            <text x="146px" y="310.5px" style="font-family:'Prime-Regular', 'Prime';font-size:96px;fill:rgb(58,81,153);">PRO</text>
+            <text x="334.352px" y="310.5px" style="font-family:'Prime-Regular', 'Prime';font-size:96px;fill:rgb(47,46,51);">JEX</text>
+        </g>
+        <g transform="matrix(1,0,0,1,24.5786,167.086)">
+            <text x="763.995px" y="228.438px" style="font-family:'Prime-Regular', 'Prime';font-size:48px;fill:rgb(247,206,62);">Shar<tspan x="861.963px " y="228.438px ">e</tspan></text>
+        </g>
+    </g>
+</svg>
