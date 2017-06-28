@@ -26,7 +26,11 @@
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
   background-color: transparent;
 }
-
+.custom-nav-logo {
+  margin-top: 12px ;
+  margin-right:  ;
+  margin-bottom: 12px;
+}
 
 .contact-button {
   display: inline;
@@ -187,7 +191,9 @@
 .descr3-body {
   background-color: rgba(255, 255, 255, 0.9);
 }
-
+.descr4 {
+  width: 100%;
+}
 
 .footer {
   height: 2000px;
