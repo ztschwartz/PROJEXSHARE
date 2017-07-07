@@ -42,12 +42,12 @@
 .contact-button {
   display: inline;
   margin-top: 6px !important;
-  color: #F7CE3E !important;
+  color: #F0810F !important;
   font-size: 1rem;
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important;
   background-color: transparent !important;
-  border:  1px solid #F7CE3E;
+  border:  1px solid #F0810F;
 }
 
 .custom-btn-demo {
@@ -55,12 +55,12 @@
   padding-bottom: 0.5rem !important;
   color: white;
   background-color: transparent !important;
-  border:  1px solid #F7CE3E;
+  border:  1px solid #F0810F;
 }
 
 .showcase {
   min-height: 750px;
-  background: url(img/PhotoFilterBackground2.svg) no-repeat center top;
+  background: url(img/PhotoFilterBackground2.png) no-repeat center top;
   background-size: cover;
   color: white;
   font-family: Raleway , sans-serif;
