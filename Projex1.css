@@ -11,10 +11,17 @@
  .container {
 
  }
+ .white-background {
+   background-color: white;
+
+ }
+ .gray-background {
+   background-color: whitesmoke;
+ }
 
 .navbar-default {
   background-color: white;
-  border: 0;
+  border-bottom: 1px solid gainsboro;
   font-family: Raleway;
   box-shadow: none !important;
 }
@@ -37,9 +44,13 @@
   margin-top: 6px !important;
   color: #F7CE3E !important;
   font-size: 1rem;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  background-color: transparent !important;
+  border:  1px solid #F7CE3E;
 }
 
-.custom-btn {
+.custom-btn-demo {
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important;
   color: white;
@@ -196,7 +207,20 @@
 }
 
 .footer {
-  height: 2000px;
+  min-height: 40px;
+  height: auto;
+  background-color: #174A75;
+  margin-top: 20px;
+  position:relative;
+}
+.copywrite-text {
+  color: white;
+}
+.footer-link {
+  margin-left: 10px;
+
+
+
 }
 
 @media only screen and (min-device-width: 992px) {
