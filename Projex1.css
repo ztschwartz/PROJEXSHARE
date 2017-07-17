@@ -42,12 +42,12 @@
 .contact-button {
   display: inline;
   margin-top: 6px !important;
-  color: #F0810F !important;
+  color: #EF5323 !important;
   font-size: 1rem;
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important;
   background-color: transparent !important;
-  border:  1px solid #F0810F;
+  border:  1px solid #EF5323;
 }
 
 .custom-btn-demo {
@@ -55,7 +55,7 @@
   padding-bottom: 0.5rem !important;
   color: white;
   background-color: transparent !important;
-  border:  1px solid #F0810F;
+  border:  1px solid #EF5323;
 }
 
 .showcase {
@@ -94,6 +94,91 @@
    font-family: Raleway;
 
  }
+ .dividerAbout1 {
+   background-image: url(img/ArchitectureImg1.jpg);
+   background-attachment: fixed;
+   background-position: center;
+   padding-top: 30px;
+   padding-bottom: 38px;
+   color: white;
+   font-family: Raleway;
+   text-shadow: 0px 1px 10px #606060;
+   margin-top: 50px;
+
+ }
+
+ .dividerAbout2 {
+   background-image: url(img/ArchitectureImg2.jpg);
+   background-attachment: fixed;
+   background-position: center;
+   padding-top: 30px;
+   padding-bottom: 38px;
+   color: white;
+   font-family: Raleway;
+   text-shadow: 0px 1px 10px #606060;
+
+ }
+
+ .dividerAbout3 {
+   background-image: url(img/ArchitectureImg3.jpg);
+   background-attachment: fixed;
+   background-position: center;
+   padding-top: 30px;
+   padding-bottom: 38px;
+   color: white;
+   font-family: Raleway;
+   text-shadow: 0px 1px 10px #606060;
+
+ }
+
+ .dividerAbout4 {
+   background-image: url(img/ArchitectureImg4.jpg);
+   background-attachment: fixed;
+   background-position: center;
+   padding-top: 30px;
+   padding-bottom: 38px;
+   color: white;
+   font-family: Raleway;
+   text-shadow: 0px 1px 10px #606060;
+
+ }
+
+ .dividerAbout5 {
+   background-image: url(img/ArchitectureImg5.jpg);
+   background-attachment: fixed;
+   background-position: center;
+   padding-top: 30px;
+   padding-bottom: 38px;
+   color: white;
+   font-family: Raleway;
+   text-shadow: 0px 1px 10px #606060;
+
+ }
+
+ .dividerAbout6 {
+   background-image: url(img/ArchitectureImg6.jpg);
+   background-attachment: fixed;
+   background-position: center;
+   padding-top: 30px;
+   padding-bottom: 38px;
+   color: white;
+   font-family: Raleway;
+   text-shadow: 0px 1px 10px #606060;
+
+ }
+
+ .dividerAbout7 {
+   background-image: url(img/ArchitectureImg7.jpg);
+   background-attachment: fixed;
+   background-position: center;
+   padding-top: 30px;
+   padding-bottom: 38px;
+   color: white;
+   font-family: Raleway;
+   text-shadow: 0px 1px 10px #606060;
+
+ }
+
  .glyphicon-folder-open {
    font-size: 400px;
    color: #F7CE3E;
