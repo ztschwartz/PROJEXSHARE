@@ -197,6 +197,7 @@
    vertical-align: middle;
    padding-right: 40px;
    font-size: 1rem;
+   list-style: none;
 
  }
  .computer-image1 {
@@ -275,34 +276,63 @@
 
 }
 .descr3 {
-  min-height: 300px;
-  background-image: url(img/ArchitectureRight.jpg);
+  min-height: 500px;
+  background-color: white;
   background-size: cover;
   background-attachment: fixed;
+  margin-bottom: 100px;
+}
+.descr3-head{
+  font-family: Raleway;
+  color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: block;
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 120px;
+}
+.descr3-1{
+  text-align: center;
 }
 
-.descr3-head {
+.descr3-2 {
+  text-align: center;
+}
+
+.descr3-3 {
+  text-align: center;
 
 }
-.descr3-body {
-  background-color: rgba(255, 255, 255, 0.9);
-}
+
 .descr4 {
   width: 100%;
 }
 
+.PROJEXShareDiagram1 {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
 .footer {
-  min-height: 40px;
-  height: auto;
-  background-color: #174A75;
+  height: 300px;
+  background-color: #3A5199;
   margin-top: 20px;
   position:relative;
+
 }
 .copywrite-text {
   color: white;
+  font-family: Raleway;
+  margin-top: 260px;
 }
 .footer-link {
   margin-left: 10px;
+  font-family: Raleway;
+  color: white;
 
 
 
